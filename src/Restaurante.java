@@ -1,9 +1,12 @@
 
 public class Restaurante {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	final int vfim = 3;
+	Prato vprato[] = new Prato[vfim];
+	
+	public void mostrarCardapio() {
+		for (int x =0;x < vprato.length; x++) {
+			System.out.println(vprato[x]);
+		}
 	}
 
 }
