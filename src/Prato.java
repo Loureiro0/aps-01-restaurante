@@ -7,7 +7,6 @@ public class Prato {
 	
 	
 	public Prato(String nome, double preco) {
-		super();
 		this.nome = nome;
 		this.preco = preco;
 	}
@@ -21,6 +20,14 @@ public class Prato {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Prato [nome=" + nome + ", preco=" + preco + ", descricao=" + descricao + "]";
+	}
+	
+	
 	
 	
 	
