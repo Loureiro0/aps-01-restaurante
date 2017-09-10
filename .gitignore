@@ -1,11 +1,5 @@
-.metadata
 bin/
-tmp/
-*.tmp
-*.bak
+
+*tmp
+*.~
 *.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
