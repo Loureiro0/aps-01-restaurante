@@ -4,7 +4,7 @@ public class Prato {
 	private String nome;
 	private double preco;
 	private String descricao;
-	
+	Ingrediente ing;
 	
 	public Prato(String nome, double preco) {
 		this.nome = nome;
